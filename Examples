@@ -18,11 +18,11 @@ while int(guess) != r:
 print('You got it! The answer was ' + str(r))
 
 
-# Conditionals
+### Conditionals ###
 
 
 
-# Python with Turtle
+### Python with Turtle ###
 import turtle
 
 tiny = turtle.Turtle()
