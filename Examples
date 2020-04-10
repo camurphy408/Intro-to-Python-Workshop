@@ -1,0 +1,55 @@
+### Getting Started ###
+print('Hello World')
+
+# advanced
+print(5 * 'hello ')
+
+### Reading Input ###
+#name = input('What's your name?')
+#print('hello ' + name)
+
+# advanced
+import random
+r = random.randint(0,10)
+print(r)
+guess = input('Try to guess a number: ')
+while int(guess) != r:
+  guess = input('Guess again! ')
+print('You got it! The answer was ' + str(r))
+
+
+# Conditionals
+
+
+
+# Python with Turtle
+
+import turtle
+
+tiny = turtle.Turtle()
+tiny.pendown()
+tiny.color("red")
+
+tiny.forward(100)
+
+# other helpful turtle functions include
+tiny.left(90)
+tiny.pinup() # stop drawing
+tiny.goto(90, 90) # specific x, y location on the screen
+
+# Loops
+#long code:
+tiny.forward(100)
+tiny.right(90)
+tiny.forward(100)
+tiny.right(90)
+tiny.forward(100)
+tiny.right(90)
+tiny.forward(100)
+tiny.right(90)
+
+#shorter code:
+tiny.color("blue")
+for i in range(4):
+  tiny.forward(100)
+  tiny.right(90)
