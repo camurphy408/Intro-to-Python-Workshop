@@ -5,8 +5,8 @@ print('Hello World')
 print(5 * 'hello ')
 
 ### Reading Input ###
-#name = input('What's your name?')
-#print('hello ' + name)
+name = input('What's your name?')
+print('hello ' + name)
 
 # advanced
 import random
@@ -23,7 +23,6 @@ print('You got it! The answer was ' + str(r))
 
 
 # Python with Turtle
-
 import turtle
 
 tiny = turtle.Turtle()
