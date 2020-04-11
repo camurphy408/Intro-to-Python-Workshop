@@ -20,7 +20,17 @@ print('You got it! The answer was ' + str(r))
 
 ### Conditionals ###
 
-
+if temperature > 100:
+  print('What a hot day!')
+elif temperature < 0:
+  print('Brrrr!')
+else:
+  print('Just right!')
+  
+if name == 'Claire':
+  print('Hi Claire!')
+else:
+  print('Hi! What's your name?')
 
 ### Python with Turtle ###
 import turtle
